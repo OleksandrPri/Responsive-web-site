@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/headerAndFooter.css" rel="stylesheet" type="text/css"/>
+    <link href="css/triger.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop poster="cake.jpg">
+              <source src="images/html.mp4" type="video/mp4">
+            </video>
+            <div class="navigation">
+              <div class="target">
+                “Tämän sivuston tavoitteena</br> 
+                on nopea johdatus web-ohjelmointiin,</br>
+                 ja tuloksena on yksinkertainen</br>
+                  staattinen sivusto.”
+              </div>
+              <div class="verticalLine"></div>
+              <div class="buttons">
+                <a href="index.html">HTML</a>
+                <a href="cssPage.html">CSS</a>
+                <a href="jsPage.html">JS</a>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="post">
+            <h1>johdanto</h1>
+            <p>
+                Meidän sivusto on staattinen, siksi voimme tehdä ilman JavaScriptiä. Tätä ohjelmointikieltä käytetään yleensä taustajärjestelmään, erilaisiin animaatioihin ja muihin monimutkaisempiin visuaalisiin tehosteisiin, joita ei voida toteuttaa css:llä.
+            </p>
+            <h2>Tiedoston luominen ja yhdistäminen</h2>
+            <p>luo "js"-kansioon tiedosto, jonka tunniste on .js, anna tiedostolle nimi, joka kuvaa lyhyesti tämän skriptin toimintaa.</p>
+            <img src="images/photo_5395528515455146442_x.jpg" alt="">
+            <p>Yhdistä skripti sivuston alareunassa:</p>
+            <img src="images/photo_5397780315268830208_x.jpg" alt="">
+        </div>
+        <div class="post">
+            <h1>script:in toteutus</h1>
+            <p>Luomme muuttujan ja määritämme sen käyttöliittymäelementille, jonka kanssa haluamme olla vuorovaikutuksessa (kuten CSS:ssä, voit olla vuorovaikutuksessa elementin kanssa käyttämällä sen id, class tai tagia).</p>
+            <img src="images/photo_5395528515455146470_x.jpg" alt="">
+            <p>
+                Seuraavaksi kirjoitamme vain funktion. Esimerkiksi panen tekstin syklisesti kasvamaan ja pienenemään takaisin:
+            </p>
+            <img src="images/photo_5397780315268830191_x.jpg" alt="">
+            <p>On valmis, tulos näyttää tältä:</p>
+            <img src="images/ezgif-5-f862f13a1f.gif" alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="aboutMe">
+            <div class="contacts">
+                Oleksandr Priadko</br>
+                +358 46 973 5201</br>
+                70150, Kuopio</br>
+            </div>
+            <div class="links">
+                <a href="https://github.com">
+                    <img src="images/github-logo.png">
+                </a>
+                <a href="https://www.w3schools.com">
+                    <img src="images/W3Schools_logo.svg.png">
+                </a>
+                <a href="https://mail.google.com">
+                    <img src="images/gmail.png">
+                </a>
+            </div>
+        </div>
+        <div class="aboutWebSite">
+            Web- ja mobiilikäyttöliittymät 2024
+        </div>
+        <a href="#" id="back" class="back">▲</a>
+    </footer>
+    <script src="js/backButton.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/headerAndFooter.css" rel="stylesheet" type="text/css"/>
+    <link href="css/triger.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop poster="cake.jpg">
+              <source src="images/html.mp4" type="video/mp4">
+            </video>
+            <div class="navigation">
+              <div class="target">
+                “Tämän sivuston tavoitteena</br> 
+                on nopea johdatus web-ohjelmointiin,</br>
+                 ja tuloksena on yksinkertainen</br>
+                  staattinen sivusto.”
+              </div>
+              <div class="verticalLine"></div>
+              <div class="buttons">
+                <a href="index.html">HTML</a>
+                <a href="cssPage.html">CSS</a>
+                <a href="jsPage.html">JS</a>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="post">
+            <h1>johdanto</h1>
+            <img src="images/Без имени-1.png">
+            <p>Yksinkertaisen verkkosivuston kehittämiseen tarvitsemme 3 "teknologiaa" tai jopa 2 (tarkastelemme JavaScriptiä vain täydellisyyden vuoksi ja käytämme vain yhtä sen toiminnoista).</p>
+            <div class="question">
+                <h2>Miksi "teknologiat" eivätkä ohjelmointikielet?</h2>
+                <p>Näiden takia vain JavaScriptiä voidaan kutsua täysimittaiseksi kieleksi, ja html:llä ja css:llä on niin yksinkertainen syntaksi ja rajoitettu toiminnallisuus, että ne eivät edes kuulu tämän käsitteen piiriin.</p>
+            </div>
+            <div class="ruleHTML">
+                <h2>HTML</h2>
+                <p>verkkosivujen merkintäkieli, jonka avulla luomme erilaisia ​​käyttöliittymäelementtejä (kuvia, painikkeita, tekstiä, luetteloita, videoita).</p>
+                <h2>CSS</h2>
+                <p>CSS-tyylisivu, räätälöimme aiemmin html:llä luotuja käyttöliittymäelementtejä (muutamme väriä/fonttia/taustakuvaa ja elementtien järjestystä sivulla)</p>
+            </div>
+            <p>Näin voimme luoda kauniin staattisen verkkosivuston - joka meidän tapauksessamme on enemmän kuin tarpeeksi.</p>
+        </div>
+        <div class="post">
+            <h1>tiedostot ja kansiot</h1>
+            <p>
+                - Lataa kätevästi koodieditori Visual Studio Code 
+                <p><a href="https://code.visualstudio.com">> linkki <</a></p>
+            </p>
+            <p>
+                - Luo kansioita projektikansioon
+            </p>
+            <img src="images/photo_5395546038921712831_y.jpg" alt="">
+            <p>
+                - Avaa kansio koodieditorissa Tiedosto > avaa kansio
+            </p>
+            <img src="images/photo_5395546038921712832_x.jpg" alt="">
+            <p>
+                - Luomme sivuston <b>index.html</b> pääsivun
+            </p>
+            <div class="question">
+                <h2>
+                    Miten luodaan tiedosto, jonka tunniste on .html?
+                </h2>
+                <img src="images/photo_5395546038921712834_y.jpg" alt="">
+                <p>
+                    Kun olet luonut tekstitiedoston, vaihda .txt muotoon .html
+                    Tai luo heti koodieditorissa tarvittava tiedosto painamalla hiiren oikeaa painiketta
+                </p>
+                <img src="images/photo_5395546038921712835_x.jpg" alt="">
+                <p>- Luo perus-html-koodi kirjoittamalla "!" ja napsauta ensimmäistä vihjettä</p>
+                <img src="images/photo_5395546038921712836_y.jpg" alt="">
+                <p>Nyt projektimme on valmis&#128522;</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1>Luomme sivuston rakenteen</h1>
+            <p>Html koostuu kokonaan esimerkiksi tunnisteista</p>
+            <div class="ruleHTML">
+                <p><b>&lt;div&gt;&lt;/div&gt;</b> on vain "laatikko" käyttöliittymäelementtien yhdistämiseen.</p>
+                <p><b>&lt;button&gt;&lt;/buttony&gt;</b> - painike</p>
+                <p><b>&lt;p&gt;&lt;/p&gt;</b> - kappale (tämän tunnisteen sisällä oleva teksti alkaa kappaleella)</p>
+                <p>"/"-symboli tarkoittaa tagin sulkemista</p>
+            </div>
+            <img src="images/photo_5395546038921712837_y.jpg" alt="">
+            <div class="question">
+                <h2>Miltä sivuston yleensä pitäisi näyttää? Mitä minun pitäisi luoda?</h2>
+                <p>Verkkosivustoja rakennettaessa käytetään pääasiassa klassista mallia:</p>
+                <img src="images/stucture.JPG" alt="">
+                <p>Tämä malli ei ole pakollinen, se oli vain aluksi vähemmän suosittu.</p>
+                <p>Ja tässä on tämä kaavio käyttämällä esimerkkiä todellisesta sivustosta:</p>
+                <img src="images/photo_5395546038921712839_y.jpg" alt="">
+            </div>
+            <div class="question">
+                <h2>Odota, niin <b>head</b> vai <b>header</b>?</h2>
+                <p>- Molemmat. Se on vain, että <b>head</b> on suunniteltu yhdistämään kaikki kirjastot/tiedostot, mutta <b>header</b> on luotu vain käyttömukavuuden vuoksi.</p>
+                <img src="images/photo_5395546038921712840_y.jpg" alt="">
+            </div>
+            <div class="ruleHTML">
+                <p>
+                    Tunnisteilla <b>&lt;header&gt;</b>,<b>&lt;nav&gt;</b>, <b>&lt;main&gt;</b>, <b>&lt;footer&gt;</b> ei ole mitään vaikutusta. Sivusto toimii täsmälleen samalla tavalla ilman niitä.
+                    MUTTA koodin lukeminen on erittäin vaikeaa.
+                </p>
+            </div>
+        </div>
+        <div class="post">
+            <h1>laatikon suunnittelu</h1>
+            <p>Kuvitellaan nyt miltä sivusto näyttää</p>
+            <img src="images/photo_5395546038921712841_y.jpg" alt="">
+            <p>- siirrä mediatiedostoja "images" - kansioon (meillä on vähän tiedostoja, joten voit käyttää vain yhtä kansiota).</p>
+            <img src="images/photo_5395546038921712842_y.jpg" alt="">
+            <p>Seuraavaksi luomme sivuston otsikon, luomme logon ja nimen. Laitetaan nämä kaksi elementtiä <b>&lt;div&gt;</b>-laatikkoon.</p>
+            <img src="images/photo_5395546038921712843_y.jpg" alt="">
+            <div class="question">
+                <h2>Miksi <b>&lt;div&gt;</b>?</h2>
+                <p>Jotta tulevaisuudessa, kun työskentelemme CSS:n kanssa, meidän on helpompi tehdä sisennyksiä, värittää tarvittavat alueet ja asettaa elementtien vaaka-/pystyasettelu laatikkoon.</p>
+            </div>
+            <p>
+                - Navigointiin luomme kolme tekstilinkkiä ("a"-tunniste muuttaa sisällä olevan tekstin/kuvan linkiksi).
+            </p>
+            <img src="images/photo_5395546038921712844_y.jpg" alt="">
+            <div class="question">
+                <h2>Mitä class on ?</h2>
+                <p>
+                    HTML-kielessä tageilla voi olla omat "attribuuttinsa". Niitä ei ole paljon, lähinnä luokkaa ja id:tä käytetään useimmiten.
+                </p>
+            </div>
+            <div class="ruleHTML">
+                <p>
+                    <b>Class</b> – antaa meille mahdollisuuden asettaa (esimerkiksi saman värin) kaikille elementeille, joissa se on määritetty, kun työskentelemme myöhemmin CSS:n kanssa
+                </p>
+                <p>
+                    <b>Id</b> – tekee pohjimmiltaan saman asian kuin luokka, mutta on korkeammalla hierarkiassa
+                </p>
+            </div>
+            <div class="question">
+                Esimerkiksi:</br>
+                &lt;p class="paragraph"&gt;kissa&lt;/p&gt;</br>
+                &lt;p class="paragraph" id="veryImportantParagraph"&gt;kissa&lt;/p&gt;</br>
+                &lt;p class="paragraph"&gt;kissa&lt;/p&gt;</br></br>
+                /*</br>
+                Määritimme "kappale"-luokan tekstin väriksi mustaksi ja "VeryImportantParagraph" -tunnukseksi punaiseksi.</br>
+                */</br></br>
+                Tämä on mitä näemme sivustolla:</br></br>
+                <span style="color: black">kissa</span></br>
+                <span style="color: red">kissa</span></br>
+                <span style="color: black">kissa</span></br>
+            </div>
+            <p>Seuraavaksi luomme "uutissyötteen" ja sivupalkin musiikilla.</p>
+            <img src="images/photo_5395528515455145985_y.jpg" alt="">
+            <p>
+                Ja lopuksi, sivuston "alatunnisteeseen" lisäämme linkin sosiaaliseen verkostoon ja jonkinlaisen merkinnän, kuten oikealla sivustolla.
+            </p>
+            <img src="images/photo_5395546038921712852_x.jpg" alt="">
+        </div>
+        <div class="post">
+            <h1>html - verkkosivu</h1>
+            <p>Nyt se on valmis! Luomamme verkkosivusto näyttää tältä:</p>
+            <img src="images/photo_5395546038921712858_y.jpg" alt="">
+            <img src="images/photo_5395546038921712859_y.jpg" alt="">
+            <p>Se ei ole vielä niin kaunis, mutta se johtuu siitä, että emme ole vielä käyttäneet CSS-tyylejä, minkä teemme seuraavalla sivulla.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="aboutMe">
+            <div class="contacts">
+                Oleksandr Priadko</br>
+                +358 46 973 5201</br>
+                70150, Kuopio</br>
+            </div>
+            <div class="links">
+                <a href="https://github.com">
+                    <img src="images/github-logo.png">
+                </a>
+                <a href="https://www.w3schools.com">
+                    <img src="images/W3Schools_logo.svg.png">
+                </a>
+                <a href="https://mail.google.com">
+                    <img src="images/gmail.png">
+                </a>
+            </div>
+        </div>
+        <div class="aboutWebSite">
+            Web- ja mobiilikäyttöliittymät 2024
+        </div>
+        <a href="#" id="back" class="back">▲</a>
+    </footer>
+    <script src="js/backButton.js"></script>
+</body>
+</html>

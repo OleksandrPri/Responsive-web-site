@@ -1,0 +1,112 @@
+html, header, body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url("../images/—Pngtree—dark\ vector\ abstract\ background_1159556.png");
+    background-repeat: space;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+/*header*/
+header {
+    background-color: rgba(0, 0, 0, 0.292);
+    z-index: 1;
+}
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  .video-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 100%;
+  }
+  .navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    padding-bottom: 80px;
+  }
+  .target {
+    background-color: white;
+    color: black;
+    font-family: Brush Script MT;
+    font-size: 18px;
+    width: 308px;
+    height: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .verticalLine {
+    width: 4px;
+    height: 179px;
+    background-color: white;
+    margin: 0 15px 0 15px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .buttons a {
+    color: white;
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  .buttons a:hover {
+    background-color: white;
+    color: black;
+  }
+  /*footer*/
+  footer {
+    display: flex;
+    height: 150px;
+    background-color: rgb(30, 55, 78);
+    color: white;
+    padding: 30px 80px 10px 80px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  a img {
+    width: 50px;
+    padding: 0 10px 0 10px;
+  }
+  .aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    font-family: Helvetica;
+  }
+  .aboutWebSite {
+    text-align: center;
+  }
+  /*back button*/
+  .back {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 24px;
+    color: #fff;
+    background: #99a8ea;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }

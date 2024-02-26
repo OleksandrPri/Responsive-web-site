@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/headerAndFooter.css" rel="stylesheet" type="text/css"/>
+    <link href="css/triger.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop poster="cake.jpg">
+              <source src="images/html.mp4" type="video/mp4">
+            </video>
+            <div class="navigation">
+              <div class="target">
+                “Tämän sivuston tavoitteena</br> 
+                on nopea johdatus web-ohjelmointiin,</br>
+                 ja tuloksena on yksinkertainen</br>
+                  staattinen sivusto.”
+              </div>
+              <div class="verticalLine"></div>
+              <div class="buttons">
+                <a href="index.html">HTML</a>
+                <a href="cssPage.html">CSS</a>
+                <a href="jsPage.html">JS</a>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="post">
+            <h1>johdanto</h1>
+            <p>Nyt opimme CSS-syntaksin:</p>
+            <img src="images/Image Pasted 2024-18-02 at 17.22.36 (1).png" alt="">
+            <p>
+                Siinä kaikki, nyt tiedät syntaksin. CSS-syntaksi on hyvin yksinkertainen, se koostuu vain valitsimesta ja ominaisuuksista.
+            </p>
+            <h2>Tiedoston luominen ja yhdistäminen</h2>
+            <p>Luo css-kansioon tiedosto tunnisteella .css - nimi voi olla mikä tahansa, tärkeintä on ymmärtää, mille html-tiedostoille ne on tarkoitettu.</p>
+            <img src="images/photo_5395528515455146102_x.jpg" alt="">
+            <p>Ja viimeinen silaus on sisällyttää .css-tiedosto head-tunnisteeseen komennolla:</p>
+            <img src="images/photo_5395528515455146103_y.jpg" alt="">
+        </div>
+        <div class="post">
+            <h1>Tyylien määrittäminen .css-tiedoston</h1>
+            <p>
+                Katsotaanpa esimerkkiä:
+                Meillä on 5 kappaletta, joista 3 on määritetty <b>class</b>, ja yhdessä on <b>class</b> ja <b>id</b>.
+            </p>
+            <img src="images/photo_5395528515455146200_x.jpg" alt="">
+            <p>
+                <span style="color: black">kissa</span></br>
+                <span style="color: black">kissa</span></br>
+                <span style="color: black">kissa</span></br>
+                <span style="color: black">kissa</span></br>
+                <span style="color: black">kissa</span></br>
+            </p>
+            <p>- Määritä sininen tekstin väri "p"-tunnisteeseen</p>
+            <img src="images/photo_5395528515455146202_x.jpg" alt="">
+            <p>- Nyt kaikki sivun kappaleet ovat sinisiä</p>
+            <p>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+            </p>
+            <p>- Ja nyt haluan joidenkin niistä olevan vihreitä</p>
+            <img src="images/photo_5395528515455146203_x.jpg" alt="">
+            <p>
+                - Määritä tunnisteille luokka, jos haluamme muuttaa useiden objektien ominaisuuksia (piste ennen sanaa "teksti" tarkoittaa, että sana sen jälkeen on luokan nimi).
+            </p>
+            <p>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: green">kissa</span></br>
+                <span style="color: green">kissa</span></br>
+                <span style="color: green">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+            </p>
+            <p>
+                - Ja määrittääkseni ominaisuudet mille tahansa elementille, käytän <b>id</b>:tä.
+            </p>
+            <img src="images/photo_5395528515455146204_x.jpg" alt="">
+            <p>- css-tiedoston <b>id</b> on merkitty hashilla "#"</p>
+            <p>
+                <span style="color: blue">kissa</span></br>
+                <span style="color: green">kissa</span></br>
+                <span style="color: red">kissa</span></br>
+                <span style="color: green">kissa</span></br>
+                <span style="color: blue">kissa</span></br>
+            </p>
+            <p>Voit myös määrittää ominaisuuksia useille valitsimille kerralla:</p>
+            <img src="images/photo_5395528515455146205_x.jpg" alt="">
+            <p>Tai vain valitsimet, jotka ovat muiden valitsimien sisällä:</p>
+            <img src="images/photo_5395528515455146206_x.jpg" alt="">
+            <div class="ruleCSS">
+                <h2>Hierarkia</h2>
+                <p>Kuten olet ehkä jo huomannut, jos esimerkiksi määrität tunnukselle eri värin, se korvaa värin, joka on määritetty saman objektin luokalle. Tätä kutsutaan hierarkiaksi, ja se näyttää suunnilleen tältä:</p>
+                <p><b>id > class > tunniste</b></p>
+                <p>Eli id-ominaisuuksilla on enemmän painoarvoa kuin luokalla, ja luokka on enemmän kuin pelkkä tunniste.</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1>sivuston banneri ja navigointi</h1>
+            <img src="images/photo_5395528515455146282_y.jpg" alt="">
+            <p>Pienennä kuva sopivan kokoiseksi:</p>
+            <img src="images/photo_5395528515455146283_y.jpg" alt="">
+            <img src="images/photo_5395528515455146286_y.jpg" alt="">
+            <p>Aseta bannerin ja navigoinnin värit sekä sivuston taustaväri:</p>
+            <img src="images/photo_5395528515455146291_x.jpg" alt="">
+            <img src="images/photo_5395528515455146292_y.jpg" alt="">
+            <p>
+                • Poista sisennys määrittämällä <b>margin: 0;</b> body tag:ssa</br>
+                Muuta tekstin väriä/kokoa/tyyliä:
+            </p>
+            <img src="images/photo_5395528515455146293_y.jpg" alt="">
+            <img src="images/photo_5395528515455146294_y.jpg" alt="">
+            <p>
+                Kohdista kuva ja sivuston nimi pystysuoraan ja siirrä painikkeet vaaka-asentoon:
+            </p>
+            <img src="images/photo_5395528515455146295_y.jpg" alt="">
+            <img src="images/photo_5395528515455146297_y.jpg" alt="">
+            <p>
+                Lisää navigointipainikkeisiin <b>padding</b> ja kuvan <b>margin-left</b>.
+            </p>
+            <img src="images/photo_5395528515455146299_x.jpg" alt="">
+            <img src="images/photo_5395528515455146300_y.jpg" alt="">
+            <p>Haluan myös, että bannerilla on leveysrajoitus:</p>
+            <img src="images/photo_5395528515455146301_x.jpg" alt="">
+            <img src="images/photo_5395528515455146302_y.jpg" alt="">
+            <p>Nyt banneri ja painikkeilla varustettu paneeli voivat kutistua ja laajentua vain enintään 1200 pikselillä.</p>
+            <p>Keskitä koko <b>body</b>:n sisältö ja kaikki on valmis.</p>
+            <img src="images/photo_5395528515455146304_x.jpg" alt="">
+            <img src="images/photo_5395528515455146305_y.jpg" alt="">
+            <p>
+                Ja viimeinen vaihe on, että teen koko navigointipainikkeen korostettuna hiiriasentoon (tausta ja tekstin väri muuttuvat).
+            </p>
+            <img src="images/photo_5395528515455146306_y.jpg" alt="">
+            <img src="images/photo_5395528515455146308_y.jpg" alt="">
+        </div>
+        <div class="post">
+            <h1>responsiivinen verkkosivu</h1>
+            <div class="ruleCSS">
+                <p>• Kuvien ja joskus tekstin koko vaihtelee näytön koon mukaan</br>
+                    • Pienennettynä jotkin elementit katoavat tai muuttuvat</br>
+                    • Elementeillä varustetut lohkot – “elastinen”
+                </p>
+            </div>
+            <p>
+                Kaikki tämä on otettava huomioon etukäteen, jopa HTML-skeeman luomisvaiheessa
+                Tältä verkkosivumme näyttää nyt puhelimella:
+            </p>
+            <img src="images/photo_5395528515455146311_y.jpg" alt="">
+            <p>- Lisää <b>wrap</b>-ominaisuus</p>
+            <img src="images/photo_5395528515455146312_x.jpg" alt="">
+            <img src="images/photo_5395528515455146313_x.jpg" alt="">
+            <img src="images/photo_5395528515455146314_x.jpg" alt="">
+            <p>
+                Nyt kaikki on melkein valmis, mutta responsiivisuuden saavuttamiseksi meidän on käytettävä laukaisuja, kun muutamme näytön kokoa. Tätä varten on parasta luoda erillinen tiedosto, koska triggerit tehdään yleensä näyttökokoille (puhelin, tabletti ja tietokone).
+                Mutta yksi asia riittää meille - puhelimelle.
+            </p>
+            <img src="images/photo_5395528515455146315_y.jpg" alt="">
+            <img src="images/ezgif-3-1956217dbc.gif" alt="">
+        </div>
+    </main>
+    <footer>
+        <div class="aboutMe">
+            <div class="contacts">
+                Oleksandr Priadko</br>
+                +358 46 973 5201</br>
+                70150, Kuopio</br>
+            </div>
+            <div class="links">
+                <a href="https://github.com">
+                    <img src="images/github-logo.png">
+                </a>
+                <a href="https://www.w3schools.com">
+                    <img src="images/W3Schools_logo.svg.png">
+                </a>
+                <a href="https://mail.google.com">
+                    <img src="images/gmail.png">
+                </a>
+            </div>
+        </div>
+        <div class="aboutWebSite">
+            Web- ja mobiilikäyttöliittymät 2024
+        </div>
+        <a href="#" id="back" class="back">▲</a>
+    </footer>
+    <script src="js/backButton.js"></script>
+</body>
+</html>
