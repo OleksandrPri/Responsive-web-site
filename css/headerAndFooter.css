@@ -1,5 +1,5 @@
 * {
-  hyphens: auto;
+  word-break: auto-phrase;
 }
 html, header, body {
     height: 100%;
