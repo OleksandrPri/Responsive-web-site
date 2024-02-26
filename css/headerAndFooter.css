@@ -1,3 +1,6 @@
+* {
+  hyphens: auto;
+}
 html, header, body {
     height: 100%;
 }
